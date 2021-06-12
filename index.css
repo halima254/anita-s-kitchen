@@ -1,9 +1,11 @@
-html, body{
+html,
+body {
     margin: 0px;
     height: 100%;
 }
-.page1{
-    background-image:url(./assets/backgrounds/landing.jpg);
+
+.page1 {
+    background-image: url(./assets/backgrounds/landing.jpg);
     height: 100%;
     background-size: cover;
     text-align: center;
@@ -11,4 +13,57 @@ html, body{
     color: white;
     font-size: 30px;
 
+
+}
+
+.service {
+    display: flex;
+
+
+
+}
+
+#service1 {
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    text-align: center;
+}
+
+#happy {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 50%;
+
+}
+
+#party {
+    background-color: #F15A29;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 38px;
+    height: 50%;
+    height: fit-content;
+}
+
+#breakfast,
+#lunch,
+#dinner {
+    text-align: center;
+    position: relative;
+    color: white;
+}
+#lunch{
+    opacity: 0.5;
+}
+
+#bftxt,
+#lunchtxt,
+#dinnertxt {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: (-50%, -50%);
+    font-style: italic;
+    font-size: 24px;
 }
