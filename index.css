@@ -1,0 +1,14 @@
+html, body{
+    margin: 0px;
+    height: 100%;
+}
+.page1{
+    background-image:url(./assets/backgrounds/landing.jpg);
+    height: 100%;
+    background-size: cover;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    font-size: 30px;
+
+}
