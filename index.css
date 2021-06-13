@@ -215,6 +215,7 @@ body {
 }
 .delivery{
     background-image: url(./assets/backgrounds/subscribe.jpg);
+    height: 250px;
 }
 .form{
     margin-left: 40%;
@@ -236,3 +237,17 @@ button{
 background-color: white;
 opacity: 0.5;
 }
+footer{
+    background-color: #F15A29;
+    height: 250px;
+    text-align: center;
+    color: white;
+}
+#footer{
+    display: flex;
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 48%;
+    justify-content: space-between;
+}
+   
