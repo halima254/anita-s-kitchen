@@ -4,7 +4,7 @@ body {
     height: 100%;
 }
 
-.page1 {
+.background1 {
     background-image: url(./assets/backgrounds/landing.jpg);
     height: 100%;
     background-size: cover;
@@ -66,4 +66,84 @@ body {
     transform: (-50%, -50%);
     font-style: italic;
     font-size: 24px;
+}
+#foodimage{
+    /* display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 0.5em; */
+    box-shadow: 10px 10px 10px 10px solid gray;
+    height: 140px;
+}
+
+#foodimage img{
+    height: 150px;
+    position: relative;
+}
+
+.img_one{
+    top: 2px;
+    /* max-height: fit-content; */
+}
+
+.img_two{
+    top: -2px;
+    /* max-height: fit-content; */
+}
+
+.image-container{
+    margin: 0.2em;
+    border: 1.0em solid rgba(0, 0, 0, 0.05);
+    
+
+}
+
+
+.fastfood{
+    display: flex;
+    text-align: left;
+    margin-left: 10%;
+    width: 70%;
+    
+}
+
+#fastfooddetails{
+    margin-left: 2.5em;
+
+}
+#drinksimages{
+    display: flex;
+    padding: 5px;
+    margin-left: 10%;
+    
+}
+
+
+.foodmenu{
+    background-image: url(./assets/backgrounds/foodsBg.jpg);
+    background-repeat: no-repeat;
+    padding: 8%;
+    margin-top: 50px;
+}
+#foodcontainer{
+    background-color: white;
+
+}
+#foodsavailable{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+#foodimages{
+    display: flex;
+    justify-content: space-evenly;
+}
+#foodnames{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    color: #F15A29;
+}
+#fastfood{
+    color:#F15A29 ;
 }
