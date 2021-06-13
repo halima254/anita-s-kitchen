@@ -225,7 +225,14 @@ body {
     background-color: #F15A29;
 
 }
+button{
+    background-color: #F15A29;
+}
 .delivery h3{
     color:white;
     text-align: center;
+}
+.email{
+background-color: white;
+opacity: 0.5;
 }
