@@ -2,7 +2,7 @@ html,
 body {
     margin: 0px;
     height: 100%;
-    font-family: cursive;
+    
 }
 
 .background1 {
@@ -13,6 +13,7 @@ body {
     padding-top: 150px;
     color: white;
     font-size: 30px;
+    font-family: 'Baloo Tammudu 2', cursive;
 
 
 }
@@ -29,12 +30,14 @@ body {
     flex-direction: column;
     width: 150%;
     text-align: center;
+    font-family: 'Baloo Tammudu 2', cursive;
 }
 
 #happy {
     margin-top: 40px;
     margin-bottom: 40px;
     height: 50%;
+    font-family: 'Baloo Tammudu 2', cursive;
 
 }
 
@@ -45,6 +48,7 @@ body {
     padding-bottom: 38px;
     height: 50%;
     height: fit-content;
+    font-family: 'Baloo Tammudu 2', cursive;
 }
 
 #breakfast,
@@ -53,6 +57,7 @@ body {
     text-align: center;
     position: relative;
     color: white;
+    font-family: 'Baloo Tammudu 2', cursive;
 }
 #lunch{
     opacity: 0.5;
@@ -75,6 +80,7 @@ body {
     margin: 0.5em; */
     box-shadow: 10px 10px 10px 10px solid gray;
     height: 140px;
+    font-family: 'Baloo Tammudu 2', cursive;
 }
 
 #foodimage img{
@@ -109,11 +115,13 @@ body {
     margin-left: 15%;
     width: 70%;
     justify-content: space-between;
+    font-family: 'Baloo Tammudu 2', cursive;
     
 }
 
 #fastfooddetails{
     margin-left: 2.5em;
+    font-family: 'Baloo Tammudu 2', cursive;
 
 }
 #drinksimages{
@@ -147,6 +155,7 @@ body {
     background-repeat: no-repeat;
     padding: 8%;
     margin-top: 50px;
+    font-family: 'Baloo Tammudu 2', cursive;
 }
 #foodcontainer{
     background-color: white;
@@ -156,6 +165,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     font-weight: bold;
+    font-family: 'Baloo Tammudu 2', cursive;
 }
 #foodimages{
     display: flex;
@@ -182,4 +192,10 @@ body {
 }
 #menu{
     border-left: 2px solid gray;
+}
+#fastfooddetails a{
+    color: #F15A29;
+}
+#drinksdetails a{
+    color: #F15A29;
 }
