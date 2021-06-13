@@ -105,6 +105,13 @@ body {
     
 
 }
+.image-containe{
+
+    border: 1.0em solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    
+
+}
 
 
 .fastfood{
@@ -128,8 +135,14 @@ body {
     display: flex;
     padding: 5px;
     margin-left: 50px;
+    box-shadow: 10px 10px 10px 10px solid gray;
 
     
+}
+#drinksimages img{
+    /* height: 150px; */
+    /* position: relative; */
+    box-shadow: 10px 10px 10px 10px solid gray;
 }
 /* .combo{
     margin-right: 100px;
@@ -188,6 +201,7 @@ body {
     margin-right: 8%;
     box-shadow: 2px 3px 5px 2px solid gray;
     padding: 10px;
+    border: 1.0em solid rgba(0, 0, 0, 0.05);
 
 }
 #menu{
@@ -198,4 +212,20 @@ body {
 }
 #drinksdetails a{
     color: #F15A29;
+}
+.delivery{
+    background-image: url(./assets/backgrounds/subscribe.jpg);
+}
+.form{
+    margin-left: 40%;
+
+}
+#subscribe{
+    display: flex;
+    background-color: #F15A29;
+
+}
+.delivery h3{
+    color:white;
+    text-align: center;
 }
