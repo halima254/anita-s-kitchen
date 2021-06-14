@@ -1,9 +1,59 @@
-html,
+
 body {
-    margin: 0px;
-    height: 100%;
+
+    max-height: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
     
 }
+.wrapper{
+    padding: 50px;
+
+}
+.nav{
+    display: block;
+    margin: 1em 0 0 1em;
+    width: 25px;
+    
+
+}
+.nav div{
+    background-color: white;
+    margin: 17px 22px;
+    height: 3px;
+    border-radius: 45px;
+    
+
+}
+.first{
+    width: 60px;
+}
+.second{
+    width: 60px;
+}
+.third{
+    width: 60px;
+}
+.logo{
+    text-align: center;
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    line-height: 0.8px;
+}
+.backgroundimage{
+    background:url('./assets/backgrounds/landing.jpg');
+    height: 600px;
+    
+}
+
 
 .background1 {
     background-image: url(./assets/backgrounds/landing.jpg);
@@ -109,6 +159,8 @@ body {
 
     border: 1.0em solid rgba(0, 0, 0, 0.05);
     display: flex;
+    box-shadow: 0px 0px 12px 6px gray;
+
     
 
 }
@@ -123,7 +175,7 @@ body {
     width: 70%;
     justify-content: space-between;
     font-family: 'Baloo Tammudu 2', cursive;
-    
+     font-family: 'Baloo Tammudu 2', cursive;
 }
 
 #fastfooddetails{
@@ -199,13 +251,15 @@ body {
     margin-top: 3%;
     margin-left: 8%;
     margin-right: 8%;
-    box-shadow: 2px 3px 5px 2px solid gray;
-    padding: 10px;
-    border: 1.0em solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 4px;
+    padding: 1.0em;
+    margin: 5%;
+
 
 }
 #menu{
     border-left: 2px solid gray;
+    text-align: center;
 }
 #fastfooddetails a{
     color: #F15A29;
@@ -221,14 +275,17 @@ body {
     margin-left: 40%;
 
 }
-#subscribe{
-    display: flex;
+.subscribe{
+    
     background-color: #F15A29;
+    color: white;
 
 }
 button{
     background-color: #F15A29;
+
 }
+
 .delivery h3{
     color:white;
     text-align: center;
@@ -236,6 +293,7 @@ button{
 .email{
 background-color: white;
 opacity: 0.5;
+padding: 17px;
 }
 footer{
     background-color: #F15A29;
@@ -250,4 +308,18 @@ footer{
     margin-right: 48%;
     justify-content: space-between;
 }
-   
+.customer h1{
+    color: #F15A29;
+}
+#feedbacks{
+    text-align: center;
+}
+.delivery{
+    padding-top: 50px;
+}
+button{
+padding: 15px;
+ background-color: white;
+ color: #F15A29;
+ border: #F15A29 solid 1px;
+}
