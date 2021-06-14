@@ -4,6 +4,50 @@ body {
     height: 100%;
     
 }
+.wrapper{
+    padding: 50px;
+
+}
+.nav{
+    display: block;
+    margin: 1em 0 0 1em;
+    width: 25px;
+    
+
+}
+.nav div{
+    background-color: white;
+    margin: 17px 22px;
+    height: 3px;
+    border-radius: 45px;
+
+}
+.first{
+    width: 60px;
+}
+.second{
+    width: 60px;
+}
+.third{
+    width: 60px;
+}
+.logo{
+    text-align: center;
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    line-height: 0.8px;
+}
+.backgroundimage{
+    background:url('./assets/backgrounds/landing.jpg');
+    height: 600px;
+    
+}
+
 
 .background1 {
     background-image: url(./assets/backgrounds/landing.jpg);
@@ -200,8 +244,8 @@ body {
     margin-left: 8%;
     margin-right: 8%;
     box-shadow: 2px 3px 5px 2px solid gray;
-    padding: 10px;
-    border: 1.0em solid rgba(0, 0, 0, 0.05);
+    padding: 1.0em;
+    border: 1opx solid rgba(0, 0, 0, 0.05);
 
 }
 #menu{
